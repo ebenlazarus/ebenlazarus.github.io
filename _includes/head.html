@@ -1,21 +1,47 @@
-{% include base_path %}
+    <!-- Metadata, OpenGraph and Schema.org -->
+    {% include metadata.html %}
 
-<meta charset="utf-8">
+    <!-- Bootstrap & MDB -->
+    <link href="{{ '/assets/css/bootstrap.min.css' | relative_url }}" rel="stylesheet" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ '/assets/css/mdb.min.css' | relative_url }}" crossorigin="anonymous" />
 
-{% include seo.html %}
+    <!-- Bootstrap Table -->
+    <link defer rel="stylesheet" href="{{ '/assets/css/bootstrap-table.min.css' | relative_url }}">
 
-<link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="{{ '/assets/css/all.min.css' | relative_url }}" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ '/assets/css/academicons.min.css' | relative_url }}" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{{ '/assets/css/fonts.css' | relative_url }}">
+   <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600&family=Crimson+Text:wght@400;700&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://use.typekit.net/aeq7dwy.css">
 
-<!-- http://t.co/dKP3o1e -->
-<meta name="HandheldFriendly" content="True">
-<meta name="MobileOptimized" content="320">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Code Syntax Highlighting -->
+    <link rel="stylesheet" href="{{ site.highlight_theme_light | append: '.css' | prepend: '/assets/css/' | relative_url }}" media="" id="highlight_theme_light" />
 
-<script>
-  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
-</script>
+    {% if page.toc and page.toc.sidebar %}
+    <!-- Sidebar Table of Contents -->
+    <link href="{{ '/assets/css/bootstrap-toc.min.css' | relative_url }}" rel="stylesheet" />
+    {% endif %}
 
-<!-- For all browsers -->
-<link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
+    <!-- Styles -->
+    {% if site.icon.size <= 4 %}
+    <link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>{{ site.icon }}</text></svg>">
+    {% elsif site.icon != blank %}
+    <link rel="shortcut icon" href="{{ site.icon | prepend: '/assets/img/' | relative_url}}"/>
+    {% endif %}
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 
-<meta http-equiv="cleartype" content="on">
+    <!-- Dark Mode -->
+    {% if site.enable_darkmode %}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/{{ site.highlight_theme_dark | append: '.css' }}" media="none" id="highlight_theme_dark" />
+
+    <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/dark_mode.js' | relative_url }}"></script>
+    {% endif %}
+
+    <!-- JQuery -->
+    <script src="{{ '/assets/js/jquery.min.js' | relative_url }}" integrity="{{ site.jquery.integrity }}" crossorigin="anonymous"></script>
+
