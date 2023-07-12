@@ -11,7 +11,7 @@
   --global-text-color: #000000;
   --global-text-color-light: #828282;
   --global-theme-color: #00369f;
-  --global-hover-color: #00369f;
+  --global-hover-color: #828282;
   --global-hover-text-color: #ffffff;
   --global-footer-bg-color: #1C1C1D;
   --global-footer-text-color: #e8e8e8;
@@ -129,16 +129,21 @@ p {
   font-size: 16px;
 }
 
-h1,
+h1 {
+  color: var(--global-text-color);
+  font-family: "minion-pro", serif;
+  font-size: 2.3rem;
+}
+
 h2,
 h3,
 h4,
 h5,
 h6,
-em,
 div,
 li,
 span,
+em,
 strong {
   color: var(--global-text-color);
   font-family: "minion-pro", serif;
@@ -162,8 +167,7 @@ table.table a {
 }
 a:hover,
 table.table a:hover {
-  color: var(--global-theme-color);
-  text-decoration: underline;
+  color: var(--global-hover-color);
 }
 a:hover:after :not(.nav-item.dropdown),
 table.table a:hover:after :not(.nav-item.dropdown) {
@@ -219,32 +223,38 @@ blockquote {
 }
 
 .profile {
-  width: 40%;
+  width: 35%;
 }
 .profile .address {
   margin-bottom: 5px;
   margin-top: 5px;
-  font-family: monospace;
+  font-family: "Inconsolata", monospace;
 }
 .profile .address p {
   display: inline-block;
   margin: 0;
+  font-family: "Inconsolata", monospace;
+  font-weight: bold;
+  font-size: 14px;
 }
 
 .profile.float-right {
-  margin-left: 1rem;
+  margin-left: 1.75rem;
 }
 
 .profile.float-left {
-  margin-right: 3rem;
+  margin-right: 1.75rem;
 }
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 27%;
   }
   .profile .address p {
     display: block;
+    font-family: "Inconsolata", monospace;
+    font-weight: bold;
+    font-size: 14px;
   }
 }
 .post-description {
