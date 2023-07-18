@@ -20,7 +20,10 @@ social: false  # includes social icons at the bottom of the page
 ---
 
 Welcome! I am an Assistant Professor of Finance at the Haas School of Business at UC Berkeley. Before joining Berkeley, I was an assistant professor at the MIT Sloan School of Management. My research focuses on asset pricing, macroeconomics, and time-series econometrics.
-<div style="margin-top:-3px;">
+
+<b>I'll be building out this website shortly. In the meantime, please see my previous MIT website at [https://elazarus.mit.edu](https://elazarus.mit.edu) for my up-to-date [research page](https://elazarus.mit.edu/research/) and additional information.</b>
+
+<div style="margin-top:3px;">
 <p style="font-size: 16px; margin-bottom: 5px;"><b><span style="padding-right: 0.375em;"><a href='mailto:lazarus@berkeley.edu'><i class="fas fa-envelope fa-fw"></i></a></span><span style="font-family: Inconsolata,monospace; font-size: 16px;"><a href='mailto:lazarus@berkeley.edu'>lazarus@berkeley.edu</a></span></b></p>
 <p style="font-size: 16px;"><b><span style="padding-right: 0.375em;"><a href="{{ 'CV.pdf' | prepend: '/' | relative_url}}"><i class="fas fa-file-pdf fa-fw"></i></a></span><a href="{{ 'CV.pdf' | prepend: '/' | relative_url}}">CV</a></b></p>
 </div>
