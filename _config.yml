@@ -13,7 +13,7 @@ footer_text: #
 keywords: eben, lazarus, ebenlazarus, eben-lazarus, uc-berkeley, berkeley-haas, berkeley, haas, personal-site, finance, economics, academic-website  # add your own keywords or leave empty
 
 lang: en-US # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 🇪 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: #🇪 #EL #android-chrome-512x512.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://ebenlazarus.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
@@ -233,6 +233,14 @@ defaults:
       path: "assets"
     values:
       sitemap: false
+  - scope:
+      path: "*.pdf"
+    values:
+      sitemap: false
+  - scope:
+      path: "CV.pdf"
+    values:
+      sitemap: true
 
 # -----------------------------------------------------------------------------
 # Jekyll Minifier
