@@ -11,6 +11,19 @@ $(document).ready(function() {
     $('a').removeClass('waves-effect waves-light');
 });
 
+// new abstract toggle
+$(document).ready(function() {
+    $(".slidingDiv").hide();
+  
+    $('.show_hide').click(function(e) {
+      var $this = $(this);
+      $this.closest(".entry").find(".slidingDiv").slideToggle(2);
+      var val = $(this).text() == "Abstract ×" ? "Abstract +" : "Abstract ×";
+      $(this).hide().text(val).fadeIn(2);
+      e.preventDefault();
+    });
+});
+
 // bootstrap-toc
 $(document).ready(function () {
     if($('#toc-sidebar').length){
