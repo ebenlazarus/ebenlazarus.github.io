@@ -50,16 +50,16 @@ $('.res-nav').on('click',function(){
     $(this).addClass('active');
 });
 var waypoint = new Waypoint({
-    element: document.getElementById('res-nav-down'),
+    element: document.getElementById('res-switch'),
     handler: function(direction) {
       setActive('res-nav-'+direction);
     },
-    offset: '-5%'
+    offset: '8%'
 });
-var waypoint = new Waypoint({
-    element: document.getElementById('res-nav-down'),
+/* var waypoint = new Waypoint({
+    element: document.getElementById('research'),
     handler: function() {
       setActive('res-nav-down');
     },
     offset: '-5%'
-});
+}); */

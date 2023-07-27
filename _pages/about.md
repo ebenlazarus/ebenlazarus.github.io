@@ -27,7 +27,7 @@ Welcome! I am an assistant professor of finance at the Haas School of Business a
 {% endcomment %}
 
 <div style="margin-top:30px;">
-<p style="font-size: 16px; margin-bottom: 6px;"><b><span style="padding-right: 0.375em;"><a href="mailto:{{ site.email | encode_email }}"><i class="fas fa-envelope fa-fw"></i></a></span><span style="font-family: Inconsolata,monospace; font-size: 16px;"><a href="mailto:{{ site.email | encode_email }}">lazarus@berkeley.edu</a></span></b></p>
+<p style="font-size: 16px; margin-bottom: 6px;" id="res-switch"><b><span style="padding-right: 0.375em;"><a href="mailto:{{ site.email | encode_email }}"><i class="fas fa-envelope fa-fw"></i></a></span><span style="font-family: Inconsolata,monospace; font-size: 16px;"><a href="mailto:{{ site.email | encode_email }}">lazarus@berkeley.edu</a></span></b></p>
 <p style="font-size: 16px; margin-bottom: 6px;"><b><span style="padding-right: 0.375em;"><a href='https://haas.berkeley.edu/facilities/the-haas-campus/faculty-building/'><i class="fas fa-location-dot fa-fw"></i></a></span><a href="">Office: F686</a></b></p>
 <p style="font-size: 16px; margin-bottom: 32.5px"><b><span style="padding-right: 0.375em;"><a href="{{ 'CV.pdf' | prepend: '/' | relative_url}}"><i class="fas fa-file-pdf fa-fw"></i></a></span><a href="{{ 'CV.pdf' | prepend: '/' | relative_url}}">CV</a></b></p>
 </div>

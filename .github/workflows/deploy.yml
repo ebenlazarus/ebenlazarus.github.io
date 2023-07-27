@@ -28,6 +28,8 @@ jobs:
     - name: Install and Build 🔧
       run: |
         npm install -g mermaid.cli
+        npm install -g uncss
+        export JEKYLL_ENV=production
         bundle exec jekyll build
     - name: Deploy 🚀
       if: github.event_name != 'pull_request'
