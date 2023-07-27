@@ -1,4 +1,1 @@
-$("prof-pic").onerror = function(message, source, lineno, colno, error) {
-    this.onerror=null;
-    $('.responsive-img-srcset').remove();
-}
+$("prof-pic").onerror=function(){this.onerror=null,$(".responsive-img-srcset").remove()};
