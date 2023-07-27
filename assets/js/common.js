@@ -36,3 +36,30 @@ $(document).ready(function () {
     }
 });
 
+// Research nav highlight
+function setActive(i) {
+    $('.nav-item').removeClass('active');
+    $('#'+i).addClass("active");
+}
+$('.res-nav').on('click',function(){
+
+    //Remove any previous active classes
+    $('.nav-item').removeClass('active');
+  
+    //Add active class to the clicked item
+    $(this).addClass('active');
+});
+var waypoint = new Waypoint({
+    element: document.getElementById('res-nav-down'),
+    handler: function(direction) {
+      setActive('res-nav-'+direction);
+    },
+    offset: '-5%'
+});
+var waypoint = new Waypoint({
+    element: document.getElementById('res-nav-down'),
+    handler: function() {
+      setActive('res-nav-down');
+    },
+    offset: '-5%'
+});

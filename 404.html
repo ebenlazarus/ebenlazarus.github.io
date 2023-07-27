@@ -51,6 +51,7 @@
 
     <!-- JQuery -->
     <script src="/assets/js/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="/assets/js/jquery.waypoints.min.js"></script>
 
 
   </head>
@@ -77,14 +78,17 @@
             <ul class="navbar-nav ml-auto flex-nowrap">
 
               <!-- About -->
-              <li class="nav-item ">
+              <li class="nav-item " id="res-nav-up">
                 <a class="nav-link" href="/">Home</a>
               </li>
               
               <!-- Research -->
-              <li class="nav-item"><a class="nav-link" href="/#research">Research</a></li>
+              <li class="nav-item res-nav" id="res-nav-down"><a class="nav-link" href="/#research">Research</a></li>
 
               <!-- Other pages -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/discussions/">Discussions</a>
+              </li>
               <li class="nav-item ">
                 <a class="nav-link" href="/cv/">CV</a>
               </li>
@@ -110,8 +114,7 @@
 
           <header class="post-header">
            <!-- <h1 class="post-title">Page not found</h1>-->
-            <p class="post-description"></p>
-<h3>Page not found.</h3>
+            <p class="post-description" style="margin-top: 13px; font-size: 21px;"><b><h3>Page not found.</h3></b></p>
           </header>
 
           <article>

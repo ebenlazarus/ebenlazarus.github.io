@@ -69,7 +69,7 @@ html[data-theme=dark] .repo-img-dark {
  * Content
  ******************************************************************************/
 body {
-  padding-bottom: 70px;
+  padding-bottom: 30px;
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
 }
@@ -254,7 +254,7 @@ blockquote {
 }
 
 .profile.float-right {
-  margin-left: 2.05rem;
+  margin-left: 2.15rem;
 }
 
 .profile.float-left {
@@ -320,6 +320,7 @@ blockquote {
   color: var(--global-text-color);
 }
 .navbar.navbar-light .navbar-nav .nav-item .nav-link {
+  font-weight: 500;
   color: var(--global-text-color);
 }
 .navbar.navbar-light .navbar-nav .nav-item .nav-link:hover {
@@ -327,7 +328,7 @@ blockquote {
 }
 .navbar.navbar-light .navbar-nav .nav-item.active > .nav-link {
   background-color: inherit;
-  font-weight: bolder;
+  font-weight: 600;
   color: var(--global-theme-color);
 }
 .navbar.navbar-light .navbar-nav .nav-item.active > .nav-link:hover {

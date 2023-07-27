@@ -51,6 +51,7 @@
 
     <!-- JQuery -->
     <script src="/assets/js/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="/assets/js/jquery.waypoints.min.js"></script>
 
 
   </head>
@@ -77,14 +78,17 @@
             <ul class="navbar-nav ml-auto flex-nowrap">
 
               <!-- About -->
-              <li class="nav-item active">
+              <li class="nav-item active" id="res-nav-up">
                 <a class="nav-link" href="/">Home<span class="sr-only">(current)</span></a>
               </li>
               
               <!-- Research -->
-              <li class="nav-item"><a class="nav-link" href="/#research">Research</a></li>
+              <li class="nav-item res-nav" id="res-nav-down"><a class="nav-link" href="/#research">Research</a></li>
 
               <!-- Other pages -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/discussions/">Discussions</a>
+              </li>
               <li class="nav-item ">
                 <a class="nav-link" href="/cv/">CV</a>
               </li>
@@ -140,7 +144,7 @@
           <script src="/assets/js/img_resp.js"></script>
 
           <div class="clearfix">
-            <p>Welcome! I am an Assistant Professor of Finance at the Haas School of Business at UC Berkeley. Before joining Berkeley, I was an assistant professor at the MIT Sloan School of Management. My research focuses on asset pricing, macroeconomics, and time-series econometrics.</p>
+            <p>Welcome! I am an assistant professor of finance at the Haas School of Business at UC Berkeley. Before joining Berkeley, I was an assistant professor at the MIT Sloan School of Management. My research focuses on asset pricing, macroeconomics, and time-series econometrics.</p>
 
 <div style="margin-top:30px;">
 <p style="font-size: 16px; margin-bottom: 6px;"><b><span style="padding-right: 0.375em;"><a href="mailto:%6C%61%7A%61%72%75%73@%62%65%72%6B%65%6C%65%79.%65%64%75"><i class="fas fa-envelope fa-fw"></i></a></span><span style="font-family: Inconsolata,monospace; font-size: 16px;"><a href="mailto:%6C%61%7A%61%72%75%73@%62%65%72%6B%65%6C%65%79.%65%64%75">lazarus@berkeley.edu</a></span></b></p>
@@ -173,7 +177,7 @@
         </div>
 
     <div class="entry">
-        <p style="margin-top: -2px; font-size: 16px; font-family: Minion-Pro,Serif; line-height: 1.3;"><b><a href="/ExcessPersistence.pdf">Excess Persistence in Return Expectations</a></b><span style="font-size: 15px;">, with <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2304263" target="_blank" rel="noopener">Mihir Gandhi</a> and <a href="https://voices.uchicago.edu/gormsen/" target="_blank" rel="noopener">Niels J. Gormsen</a>, June 2023</span></p>
+        <p style="margin-top: -2px; font-size: 16px; font-family: Minion-Pro,Serif; line-height: 1.3;"><b><a href="/ExcessPersistence.pdf">Excess Persistence in Return Expectations</a></b><span style="font-size: 15px;">, with <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2304263" target="_blank" rel="noopener">Mihir Gandhi</a> and <a href="https://voices.uchicago.edu/gormsen/" target="_blank" rel="noopener">Niels J. Gormsen</a>, <nobr>June 2023</nobr></span></p>
         <p style="margin-top: -12.5px; margin-right: 10px; font-size: 15px; font-family: Minion-Pro,Serif; line-height: 1.3;"><a href="" class="show_hide">Abstract <b>+</b></a>   |   <a href="/EP_appendix.pdf">Online Appendix</a>   |   <a href="/EP_slides_0623.pdf">Slides</a></p>
         <div class="slidingDiv" style="display:none; margin-top: -12px; margin-bottom: 17px; margin-right: 10px; font-size: 15px; font-family: Minion-Pro,Serif; line-height: 1.325; text-align: justify;">
             We study the intertemporal dynamics of investors’ return expectations. Using both options and survey data, we estimate stock-return expectations at different horizons and test if these term structures are consistent with investors’ expectations in the future. We find that investors consistently overestimate long-run expected stock returns during bad times: when expected returns are high, investors believe expected returns will stay elevated for longer, and by more, than their own subsequent beliefs justify (and vice versa during good times). This excess persistence can account for excess volatility in prices, inelastic demand for equities, and stylized facts about the equity term structure.
@@ -198,9 +202,9 @@
     </div>
 
 
-    <p style="margin-top: 13px; font-size: 20px;"><b>Publications</b></p>
+    <p style="margin-top: 19px; font-size: 20px;"><b>Publications</b></p>
     <div class="entry">
-        <p style="margin-top: -5px; font-size: 16px; font-family: Minion-Pro,Serif; line-height: 1.3;"><b><a href="/Duration.pdf">Duration-Driven Returns</a></b><span style="font-size: 15px;">, with <a href="https://voices.uchicago.edu/gormsen/" target="_blank" rel="noopener">Niels J. Gormsen</a>, June 2023</span></p>
+        <p style="margin-top: -5px; font-size: 16px; font-family: Minion-Pro,Serif; line-height: 1.3;"><b><a href="/Duration.pdf">Duration-Driven Returns</a></b><span style="font-size: 15px;">, with <a href="https://voices.uchicago.edu/gormsen/" target="_blank" rel="noopener">Niels J. Gormsen</a>, <nobr>June 2023</nobr></span></p>
         <p style="margin-top: -12.5px; margin-right: 10px; font-size: 15px; font-family: Minion-Pro,Serif; line-height: 1.3;"><a href="" class="show_hide">Abstract <b>+</b></a>   |   <a href="/DurationIA.pdf">Online Appendix</a>   |   <a href="/assets/zip/DurationReplication.zip">Replication Files</a>   |   <a href="/DurationJF.pdf">Published Version</a>   |   <a href="https://doi.org/10.1111/jofi.13216" target="_blank" rel="noopener">Publisher's Link</a></p>
         <div class="slidingDiv" style="display:none; margin-top: -12px; margin-bottom: 17px; margin-right: 10px; font-size: 15px; font-family: Minion-Pro,Serif; line-height: 1.325; text-align: justify;">
             We propose a duration-based explanation for the premia on major equity factors, including value, profitability, investment, low-risk, and payout factors. These factors invest in firms that earn most of their cash flows in the near future and could therefore be driven by a premium on near-future cash flows. We test this hypothesis using a novel data set of single-stock dividend futures, which are claims on dividends of individual firms. Consistent with our hypothesis, the expected CAPM alpha on individual cash flows decreases in maturity within a firm, and the alpha is not related to the above characteristics when controlling for maturity.
@@ -228,7 +232,7 @@
 
 
     <div class="entry">
-        <p style="margin-top: -2px; font-size: 16px; font-family: Minion-Pro,Serif; line-height: 1.3;"><b><a href="/jep2013.pdf">Spatial Clustering During Memory Search</a></b><span style="font-size: 15px;">, with <a href="https://scholar.google.com/citations?user=sTGOerAAAAAJ&amp;hl=en" target="_blank" rel="noopener">Jonathan F. Miller</a>, <a href="https://memory.psy.vanderbilt.edu/w/index.php/Main_Page" target="_blank" rel="noopener">Sean M. Polyn</a>, and <a href="https://memory.psych.upenn.edu/Michael_J._Kahana" target="_blank" rel="noopener">Michael J. Kahana</a>, May 2013 </span></p>
+        <p style="margin-top: -2px; font-size: 16px; font-family: Minion-Pro,Serif; line-height: 1.3;"><b><a href="/jep2013.pdf">Spatial Clustering During Memory Search</a></b><span style="font-size: 15px;">, with <a href="https://scholar.google.com/citations?user=sTGOerAAAAAJ&amp;hl=en" target="_blank" rel="noopener">Jonathan F. Miller</a>, <a href="https://memory.psy.vanderbilt.edu/w/index.php/Main_Page" target="_blank" rel="noopener">Sean M. Polyn</a>, and <a href="https://memory.psych.upenn.edu/Michael_J._Kahana" target="_blank" rel="noopener">Michael J. Kahana</a>, <nobr>May 2013</nobr></span></p>
         <p style="margin-top: -14.5px; margin-right: 10px; font-size: 13px; font-family: Minion-Pro,Serif; line-height: 1.4;"><em>(from a previous life!)</em></p>
         <p style="margin-top: -12.675px; margin-right: 10px; font-size: 15px; font-family: Minion-Pro,Serif; line-height: 1.3;"><a href="" class="show_hide">Abstract <b>+</b></a></p>
         <div class="slidingDiv" style="display:none; margin-top: -12px; margin-bottom: 17px; margin-right: 10px; font-size: 15px; font-family: Minion-Pro,Serif; line-height: 1.325; text-align: justify;">
@@ -237,11 +241,11 @@
         <p style="margin-top: -11px; margin-bottom: 17px; margin-right: 10px; font-size: 15px; font-family: Minion-Pro,Serif; line-height: 1.3;"><em> Journal of Experimental Psychology: Learning, Memory, and Cognition</em> (2013), Vol. 39, No. 3, 773–781</p>
     </div>
 
-    <p style="margin-top: 13px; font-size: 20px;"><b>Work in Progress</b></p>
+    <p style="margin-top: 22px; font-size: 20px;"><b>Selected Work in Progress</b></p>
     <div class="entry">
         <p style="margin-top: -5px; font-size: 16px; font-family: Minion-Pro,Serif; line-height: 1.3;"><b>High Valuations and Low Growth: Low-Frequency Evidence in the Time Series and Cross Section</b><span style="font-size: 15px;">, 2022</span></p>
         <p style="margin-top: -12.5px; margin-right: 10px; font-size: 15px; font-family: Minion-Pro,Serif; line-height: 1.3;"><a href="/ValGrowth_slides.pdf">Preliminary Slides</a></p>
-        </div>
+    </div>
 
           <!-- Social -->
         </article>
