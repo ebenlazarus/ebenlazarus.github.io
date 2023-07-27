@@ -159,7 +159,7 @@ blockquote {
 }
 
 .profile.float-right {
-  margin-left: 2.05rem;
+  margin-left: 2.15rem;
 }
 
 .profile.float-left {
@@ -243,6 +243,8 @@ blockquote {
   }
 
   .navbar-nav .nav-item .nav-link {
+   // font-size: 15px;
+    font-weight: 500;
     color: var(--global-text-color);
 
     &:hover {
@@ -252,7 +254,7 @@ blockquote {
 
   .navbar-nav .nav-item.active>.nav-link {
     background-color: inherit;
-    font-weight: bolder;
+    font-weight: 600;
     color: var(--global-theme-color);
 
     &:hover {
