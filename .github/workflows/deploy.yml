@@ -27,8 +27,7 @@ jobs:
         bundler-cache: true
     - name: Install and Build 🔧
       run: |
-        npm install -g mermaid.cli
-        npm install -g uncss
+        npm install -g mermaid.cli uncss
         export JEKYLL_ENV=production
         bundle exec jekyll build
     - name: Deploy 🚀
