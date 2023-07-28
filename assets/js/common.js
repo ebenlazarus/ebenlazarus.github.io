@@ -48,6 +48,10 @@ $('.res-nav').on('click',function(){
   
     //Add active class to the clicked item
     $(this).addClass('active');
+
+    // Hide the navbar after click if on mobile
+    //$('.navbar-toggler').toggleClass('collapsed');
+    $('.navbar-collapse').collapse('hide');
 });
 var waypoint = new Waypoint({
     element: document.getElementById('res-switch'),
