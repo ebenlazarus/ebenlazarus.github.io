@@ -8,6 +8,7 @@
   {%- endif -%}
   {%- if page.redirect_to -%}
     <meta http-equiv="refresh" content="0; url={{ page.redirect_to }}" />
+    <link rel="canonical" href="{{ page.redirect_to }}"/>
   {%- endif -%}
   {% include head.html %}
   </head>
