@@ -8,9 +8,9 @@ middle_name:
 last_name: Lazarus
 email: lazarus@berkeley.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Personal Site for Eben Lazarus | Assistant Professor at UC Berkeley
+  Personal Research Site for Eben Lazarus | Assistant Professor at UC Berkeley
 footer_text: #
-keywords: eben, lazarus, ebenlazarus, eben-lazarus, uc-berkeley, berkeley-haas, berkeley, haas, personal-site, finance, economics, academic-website  # add your own keywords or leave empty
+keywords: eben, lazarus, ebenlazarus, eben-lazarus, uc-berkeley, berkeley-haas, berkeley, haas, personal-site, research, finance, economics, academic-website  # add your own keywords or leave empty
 
 lang: en-US # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: #🇪 #EL #android-chrome-512x512.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
