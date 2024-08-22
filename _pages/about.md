@@ -20,7 +20,7 @@ social: false  # includes social icons at the bottom of the page
 research: true # includes the research section
 ---
 
-Welcome! I am an assistant professor of finance at the Haas School of Business at UC Berkeley. Before joining Berkeley, I was an assistant professor at the MIT Sloan School of Management. My research focuses on asset pricing, macroeconomics, and time-series econometrics.
+Welcome! I am an assistant professor of finance at the Haas School of Business at UC Berkeley. My research interests include asset pricing, macroeconomics, behavioral economics, and time-series econometrics.
 
 {% comment %}
 <b>I'll be building out this website shortly. In the meantime, please see my previous MIT website at [https://elazarus.mit.edu](https://elazarus.mit.edu) for my up-to-date [research page](https://elazarus.mit.edu/research/) and additional information.</b>
