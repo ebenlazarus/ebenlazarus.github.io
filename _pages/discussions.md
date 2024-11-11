@@ -7,14 +7,18 @@ nav: true
 nav_order: 2
 ---
 
-<p style="margin-top: -16px; font-size: 16px; font-family: Minion-Pro,Serif; line-height: 1.3;"><b><a href="{{ 'LazarusUTDDiscussion.pdf' | prepend: '/assets/discussions/' | relative_url}}">Equity Premium Events</a></b><span style="font-size: 15px;">, by Ben Knox, Juan M. Londono, Mehrdad Samadi, and Annette Vissing-Jorgensen</span></p>
+
+<p style="margin-top: -16px; font-size: 16px; font-family: Minion-Pro,Serif; line-height: 1.3;"><b><a href="{{ 'LazarusBFDiscussion.pdf' | prepend: '/assets/discussions/' | relative_url}}">Responding to Surprises in a Complex World</a></b><span style="font-size: 15px;">, by Thomas Graeber, Christopher Roth, and Marco Sammon</span></p>
+<p style="margin-top: -12.5px; margin-right: 10px; font-size: 15px; font-family: Minion-Pro,Serif; line-height: 1.3;">NBER Behavioral Finance Meeting, November 2024</p>
+
+<p style="margin-top: 0px; font-size: 16px; font-family: Minion-Pro,Serif; line-height: 1.3;"><b><a href="{{ 'LazarusUTDDiscussion.pdf' | prepend: '/assets/discussions/' | relative_url}}">Equity Premium Events</a></b><span style="font-size: 15px;">, by Ben Knox, Juan M. Londono, Mehrdad Samadi, and Annette Vissing-Jorgensen</span></p>
 <p style="margin-top: -12.5px; margin-right: 10px; font-size: 15px; font-family: Minion-Pro,Serif; line-height: 1.3;">UT Dallas 2024 Fall Finance Conference, September 2024</p>
 
 <p style="margin-top: 0px; font-size: 16px; font-family: Minion-Pro,Serif; line-height: 1.3;"><b><a href="{{ 'LazarusCowlesMacroDiscussion.pdf' | prepend: '/assets/discussions/' | relative_url}}">The Macroeconomic Impact of Climate Change: Global vs. Local Temperature</a></b><span style="font-size: 15px;">, by Diego R. Känzig and Adrien Bilal</span></p>
 <p style="margin-top: -12.5px; margin-right: 10px; font-size: 15px; font-family: Minion-Pro,Serif; line-height: 1.3;">Cowles Summer Conference on Macroeconomics, June 2024</p>
 
 <p style="margin-top: 0px; font-size: 16px; font-family: Minion-Pro,Serif; line-height: 1.3;"><b><a href="{{ 'LazarusNBERRSDiscussion.pdf' | prepend: '/assets/discussions/' | relative_url}}">Market Response to Racial Uprisings</a></b><span style="font-size: 15px;">, by Bocar Ba, Roman Rivera, and Alexander Whitefield</span></p>
-<p style="margin-top: -12.5px; margin-right: 10px; font-size: 15px; font-family: Minion-Pro,Serif; line-height: 1.3;">NBER Race and Stratification Working Group Meeting, April 2024</p>
+<p style="margin-top: -12.5px; margin-right: 10px; font-size: 15px; font-family: Minion-Pro,Serif; line-height: 1.3;">NBER Race and Stratification Meeting, April 2024</p>
 
 <p style="margin-top: 0px; font-size: 16px; font-family: Minion-Pro,Serif; line-height: 1.3;"><b><a href="{{ 'el_gmdisc_0523_handout.pdf' | prepend: '/assets/discussions/' | relative_url}}">Equity Term Structure Response to FOMC Announcements</a></b><span style="font-size: 15px;">, by Benjamin Golez and Ben Matthies</span></p>
 <p style="margin-top: -12.5px; margin-right: 10px; font-size: 15px; font-family: Minion-Pro,Serif; line-height: 1.3;">UConn Finance Conference, May 2023</p>
