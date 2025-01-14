@@ -7,8 +7,10 @@ nav: true
 nav_order: 2
 ---
 
+<p style="margin-top: -16px; font-size: 16px; font-family: Minion-Pro,Serif; line-height: 1.3;"><b><a href="{{ 'LazarusAFADiscussion25.pdf' | prepend: '/assets/discussions/' | relative_url}}">Demand-Based Expected Returns</a></b><span style="font-size: 15px;">, by Alessandro Crescini, Fabio Trojani, and Andrea Vedolin</span></p>
+<p style="margin-top: -12.5px; margin-right: 10px; font-size: 15px; font-family: Minion-Pro,Serif; line-height: 1.3;">AFA Annual Meeting, January 2025</p>
 
-<p style="margin-top: -16px; font-size: 16px; font-family: Minion-Pro,Serif; line-height: 1.3;"><b><a href="{{ 'LazarusBFDiscussion.pdf' | prepend: '/assets/discussions/' | relative_url}}">Responding to Surprises in a Complex World</a></b><span style="font-size: 15px;">, by Thomas Graeber, Christopher Roth, and Marco Sammon</span></p>
+<p style="margin-top: -2px; font-size: 16px; font-family: Minion-Pro,Serif; line-height: 1.3;"><b><a href="{{ 'LazarusBFDiscussion.pdf' | prepend: '/assets/discussions/' | relative_url}}">Responding to Surprises in a Complex World</a></b><span style="font-size: 15px;">, by Thomas Graeber, Christopher Roth, and Marco Sammon</span></p>
 <p style="margin-top: -12.5px; margin-right: 10px; font-size: 15px; font-family: Minion-Pro,Serif; line-height: 1.3;">NBER Behavioral Finance Meeting, November 2024</p>
 
 <p style="margin-top: 0px; font-size: 16px; font-family: Minion-Pro,Serif; line-height: 1.3;"><b><a href="{{ 'LazarusUTDDiscussion.pdf' | prepend: '/assets/discussions/' | relative_url}}">Equity Premium Events</a></b><span style="font-size: 15px;">, by Ben Knox, Juan M. Londono, Mehrdad Samadi, and Annette Vissing-Jorgensen</span></p>
