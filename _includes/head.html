@@ -17,8 +17,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600&family=Crimson+Text:wght@400;700&display=swap" rel="stylesheet"> -->
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap" rel="stylesheet">
+    </noscript>
+    <link rel="preload" as="style" href="https://use.typekit.net/gwo7ruj.css" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
     <link rel="stylesheet" href="https://use.typekit.net/gwo7ruj.css">
+    </noscript>
+   <!-- <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/gwo7ruj.css"> -->
 
     <!-- Code Syntax Highlighting -->
     <link rel="stylesheet" href="{{ site.highlight_theme_light | append: '.css' | prepend: '/assets/css/' | relative_url }}" media="" id="highlight_theme_light" />
@@ -46,6 +54,6 @@
     {% endif %}
 
     <!-- JQuery -->
-    <script src="{{ '/assets/js/jquery.min.js' | relative_url }}" integrity="{{ site.jquery.integrity }}" crossorigin="anonymous"></script>
-    <script src="{{ '/assets/js/jquery.waypoints.min.js' | relative_url }}"></script>
+    <script defer src="{{ '/assets/js/jquery.min.js' | relative_url }}" integrity="{{ site.jquery.integrity }}" crossorigin="anonymous"></script>
+    <script defer src="{{ '/assets/js/jquery.waypoints.min.js' | relative_url }}"></script>
 
