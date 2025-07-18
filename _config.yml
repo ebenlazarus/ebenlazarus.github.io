@@ -200,7 +200,7 @@ kramdown:
       start_line: 1
 
 # Includes & excludes
-include: ['_pages', '_headers']
+include: ['_pages', '_headers', 'service-worker.js']
 exclude:
   - bin
   - Gemfile
