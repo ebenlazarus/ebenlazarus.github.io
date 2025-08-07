@@ -1,6 +1,6 @@
 // service-worker.js
 
-const CACHE_NAME = 'static-v2';   // ← bump this on each deploy
+const CACHE_NAME = 'static-v3';   // ← bump this on each deploy
 const ASSETS = [
   '/',                            // homepage
   '/assets/css/mdb.min.css',      //
