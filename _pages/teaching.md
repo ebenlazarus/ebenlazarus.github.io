@@ -10,7 +10,7 @@ nav_order: 3
 <p style="margin-top: -15px; font-size: 18px;"><b>UC Berkeley</b></p>
 
 <p style="margin-top: -5px; font-size: 16px; font-family: Minion-Pro,Serif; line-height: 1.3;"><b>UGBA 103: Introduction to Finance</b><span style="font-size: 15px;"> <span style="font-size: 13px;"><em>(for undergraduates)</em></span>, with Matteo Benetton, Spring 2024–26</span></p>
-<p style="margin-top: -12.5px; margin-bottom: 10px; margin-right: 10px; font-size: 15px; font-family: Minion-Pro,Serif; line-height: 1.3;"><a href="{{ 'UGBA103_Syllabus2025.pdf' | prepend: '/assets/teaching/' | relative_url}}">Syllabus</a></p>
+<p style="margin-top: -12.5px; margin-bottom: 10px; margin-right: 10px; font-size: 15px; font-family: Minion-Pro,Serif; line-height: 1.3;"><a href="{{ 'UGBA103_Syllabus2026.pdf' | prepend: '/assets/teaching/' | relative_url}}">Syllabus</a></p>
 
 <p style="margin-top: 15px; font-size: 16px; font-family: Minion-Pro,Serif; line-height: 1.3;"><b>MFE 230A: Investments and Derivatives</b><span style="font-size: 15px;"> <span style="font-size: 13px;"><em>(for MFE students)</em></span>, Spring 2024–26</span></p>
 <p style="margin-top: -12.5px; margin-bottom: 10px; margin-right: 10px; font-size: 15px; font-family: Minion-Pro,Serif; line-height: 1.3;"><a href="{{ 'Syllabus-MFE-230A-2025.pdf' | prepend: '/assets/teaching/' | relative_url}}">Syllabus</a></p>
