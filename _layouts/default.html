@@ -20,7 +20,7 @@
     {%- include header.html %}
 
     <!-- Content -->
-    <div class="container mt-5">
+    <main class="container mt-5">
       {% if page.toc and page.toc.sidebar %}
         {% if page.toc.sidebar == "right" %}
         <div class="row">
@@ -48,7 +48,7 @@
       {% else %}
         {{ content }}
       {% endif %}
-    </div>
+    </main>
 
     <!-- Footer -->
      <!--{%- include footer.html %}-->
