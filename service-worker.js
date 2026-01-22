@@ -1,13 +1,17 @@
+---
+layout: null
+---
 // service-worker.js
+// Version now auto-generated at build time (no manual updates needed)
 
-const CACHE_NAME = 'static-v13';   // ← bump this on each deploy
+const CACHE_NAME = 'static-{{ site.time | date: "%Y%m%d%H%M%S" }}';
 const ASSETS = [
   '/',                            // homepage
   '/assets/css/mdb.min.css',      //
   '/assets/js/jquery.min.js',     // jQuery
   '/assets/webfonts/fa-solid-900.woff2', // Font Awesome
   '/assets/img/prof_pic.jpg'             // cache the real URL you request
-  // …add any other “static” files you want pre‑cached…
+  // ...add any other "static" files you want pre-cached...
 ];
 
 self.addEventListener('install', event => {

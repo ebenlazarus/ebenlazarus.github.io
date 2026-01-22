@@ -247,9 +247,18 @@ defaults:
 # -----------------------------------------------------------------------------
 
 jekyll-minifier:
-  exclude: ['robots.txt']
+  compress_javascript: true
+  compress_css: true
+  remove_comments: true
+  remove_multi_spaces: true
+  remove_spaces_inside_tags: true
+  preserve_line_breaks: false
   uglifier_args:
     harmony: true
+  exclude:
+    - 'robots.txt'
+    - '*.min.js'
+    - '*.min.css'
 
 # -----------------------------------------------------------------------------
 # Jekyll Archives
@@ -348,25 +357,6 @@ jekyll-diagrams:
     # configuration, see https://github.com/zhustec/jekyll-diagrams.
     # feel free to comment out this section if not using jekyll diagrams.
 
-# -----------------------------------------------------------------------------
-# UnCSS
-# -----------------------------------------------------------------------------
-
-uncss:
-  stylesheets:            # a list of stylesheets to be processed; mandatory
-    - /assets/css/bootstrap.min.css
-    - /assets/css/mdb.min.css
-    - /assets/css/academicons.min.css
-    - /assets/css/all.min.css
-    - /assets/css/bootstrap-table.min.css
-    - /assets/css/fonts.css
-  files:                  # html files to consider, globs are supported; default: **/*.html
-    - "*.html"
-    - "*/*.html"
-    - "*/*/*.html"
-    - "*/*/*/*.html"
-  compress: true         # compress resulting css with sass; default: false
-  timeout: 100            # how long to wait for the JS to be loaded in milliseconds; default: undefined
 
 
 # -----------------------------------------------------------------------------

@@ -1,0 +1,194 @@
+# Research data file (updated for easier maintenance)
+
+working_papers:
+  - title: "Interest Rates and Equity Valuations"
+    pdf: "RatesEquity.pdf"
+    authors:
+      - name: "Niels J. Gormsen"
+        url: "https://voices.uchicago.edu/gormsen/"
+    date: "January 2026"
+    abstract: "A large body of work has sought to measure the effect of interest rates on equity valuations. The challenge in doing so is that both are endogenous, and their comovement depends on the forces driving interest-rate changes. To address this problem, we develop and estimate a decomposition that splits movements in real rates into three structural drivers: changes in expected growth, risk, or \u201Cpure discounting.\u201D We show that only pure discount-rate shocks transmit one-for-one to equity valuations, with little or negative transmission of growth and risk shocks. Implementing our decomposition with a global panel of growth expectations and asset prices, we find a weak unconditional relation between valuations and real rates but a strong relation with the pure discounting component, which explains 80% of cross-country valuation changes since 1990. In the U.S., we find that 35% of the interest-rate decline is attributable to pure discounting, implying that only a fraction of the change in rates has passed through directly to equities. We use the decomposition to revisit evidence on the role of  interest rates in explaining price variation, and to study higher-frequency returns, cross-sectional rate exposures, duration-matched equity premia, and reactions to monetary policy."
+    links:
+      - text: "Slides"
+        url: "RatesEquitySlides.pdf"
+
+  - title: "Excess Movement in Option-Implied Beliefs"
+    pdf: "ExcessMovement.pdf"
+    authors:
+      - name: "Ned Augenblick"
+        url: "https://faculty.haas.berkeley.edu/ned/"
+    date: "September 2025"
+    abstract: "We derive bounds on the rational variation in option-implied beliefs about market returns. While risk preferences distort option-implied (or <em>risk-neutral</em>) beliefs away from subjective beliefs, one can nonetheless bound risk-neutral belief movement under a general assumption on the stochastic discount factor. The resulting test requires no knowledge of the objective distribution and allows significantly more flexibility in discount rates than standard volatility tests. Implementing our test empirically using index options, we find that there is so much movement in risk-neutral beliefs that the bounds are routinely violated. Our results imply significant excess index-price volatility."
+    links:
+      - text: "Online Appendix"
+        url: "EM_appendix.pdf"
+      - text: "Previous Versions"
+        subitems:
+          - text: "I"
+            url: "/assets/pdf/RE.pdf"
+          - text: "II"
+            url: "/assets/pdf/EM_V2.pdf"
+      - text: "Slides"
+        url: "EM_slides_0922.pdf"
+        note: "(from previous version)"
+    status:
+      type: "accepted"
+      journal: "Journal of Finance"
+      note: "Conditionally accepted"
+
+  - title: "Forward Return Expectations"
+    pdf: "ForwardExpectations.pdf"
+    authors:
+      - name: "Mihir Gandhi"
+        url: "https://sites.google.com/site/mihiragandhi"
+      - name: "Niels J. Gormsen"
+        url: "https://voices.uchicago.edu/gormsen/"
+    date: "November 2025"
+    abstract: "We measure investors\u2019 short- and long-term stock-return expectations using both options and survey data. These expectations at different horizons reveal what investors think their own short-term expectations will be in the future, or forward return expectations. Across data sources, investors\u0019 forward return expectations are countercyclical. This countercyclical variation is, however, excessive, as the changes in forward return expectations are too large relative to subsequent realized short-term expectations. The excess variation in forward return expectations can account for a substantial share of the stock-price declines during the global financial crisis and the Covid-19 crisis."
+    links:
+      - text: "Online Appendix"
+        url: "FE_appendix.pdf"
+      - text: "Slides"
+        url: "FE_slides_0923.pdf"
+        note: "(from previous version)"
+    status:
+      type: "rr"
+      journal: "Review of Financial Studies"
+      note: "Revise & resubmit"
+
+  - title: "Horizon-Dependent Risk Pricing: Evidence from Short-Dated Options"
+    pdf: "HDRP.pdf"
+    date: "November 2022"
+    abstract: "I present evidence from index options that the price of risk over the value of the S&P 500 increases as the investment horizon becomes shorter. I show first how these risk prices may be estimated from the data, by translating the risk-neutral probabilities implied by options prices into physical probabilities that must provide unbiased forecasts of the terminal outcome. The risk price can be interpreted as the marginal investor\u0019s effective risk aversion, and estimating this value over different option-expiration horizons for the S&P, I find that risk aversion is reliably higher for near-term outcomes than for longer-term outcomes: the market\u0019s relative risk aversion over terminal index values decreases from around 15 at a one-week horizon to around 3 at a 12-week horizon. It is difficult to reconcile these findings with leading asset-pricing models, and I discuss necessary conditions for any such rational model to produce such a pattern. Models with dynamically inconsistent risk preferences, however, are capable of straightforwardly producing the findings presented here, and I discuss possible specifications of such models and their applicability to related results from previous literature."
+
+  - title: "The Cyclicality of Risk and Risk Premia"
+    pdf: "Cyclicality.pdf"
+    authors:
+      - name: "Christian S. Jensen"
+        url: "https://sites.google.com/view/csjensen"
+    date: "August 2025"
+    note: "(preliminary draft)"
+    abstract: "We consider and reexamine the properties of the market risk premium and variance over the business cycle. While it is well known that the risk premium and variance both increase in recessions, we find that the risk premium is less strongly countercyclical than conditional variance. The ratio of risk premium to variance is therefore weakly procyclical, unlike the Sharpe ratio. We document this fact in a broad global equity sample, using a range of methods to time portfolio formation after the onset of a recession. We also provide supporting evidence from option markets. We show that the ratio of risk premium to variance pins down the conditional beta in a regression of the stochastic discount factor on the market return, and its cyclicality is important for understanding stylized facts about the equity term structure. We present a stylized model that reconciles the procyclicality of the price per unit of variance risk with the term structure of Sharpe ratios to dividend claims."
+
+publications:
+  - title: "Overinference from Weak Signals and Underinference from Strong Signals"
+    pdf: "OverUnderinference.pdf"
+    authors:
+      - name: "Ned Augenblick"
+        url: "https://faculty.haas.berkeley.edu/ned/"
+      - name: "Michael Thaler"
+        url: "https://www.michaelthaler.com"
+    date: "February 2025"
+    abstract: "When people receive new information, sometimes they revise their beliefs too much, and sometimes too little. We show that a key driver of whether people overinfer or underinfer is the strength of the information. Based on a model in which people know which direction to update in, but not exactly how much to update, we hypothesize that people will overinfer from weak signals and underinfer from strong signals. We then test this hypothesis across four different environments: abstract experiments, a naturalistic experiment, sports betting markets, and financial markets. In each environment, our consistent and robust finding is overinference from weak signals and underinference from strong signals. Our framework and findings can help harmonize apparently contradictory results from the experimental and empirical literatures."
+    links:
+      - text: "Online Appendix"
+        url: "QJE_Appendix.pdf"
+      - text: "Replication Files"
+        url: "https://doi.org/10.7910/DVN/EGLSZC"
+        external: true
+      - text: "Slides"
+        url: "InferenceSlides.pdf"
+      - text: "Publisher\u0019s Link"
+        url: "https://doi.org/10.1093/qje/qjae032"
+        external: true
+    publication:
+      journal: "Quarterly Journal of Economics"
+      year: 2025
+      volume: 140
+      issue: 1
+      pages: "335–401"
+
+  - title: "Duration-Driven Returns"
+    pdf: "DurationJF.pdf"
+    authors:
+      - name: "Niels J. Gormsen"
+        url: "https://voices.uchicago.edu/gormsen/"
+    date: "June 2023"
+    abstract: "We propose a duration-based explanation for the premia on major equity factors, including value, profitability, investment, low-risk, and payout factors. These factors invest in firms that earn most of their cash flows in the near future and could therefore be driven by a premium on near-future cash flows. We test this hypothesis using a novel data set of single-stock dividend futures, which are claims on dividends of individual firms. Consistent with our hypothesis, the expected CAPM alpha on individual cash flows decreases in maturity within a firm, and the alpha is not related to the above characteristics when controlling for maturity."
+    links:
+      - text: "Online Appendix"
+        url: "DurationIA.pdf"
+      - text: "Replication Files"
+        url: "/assets/zip/DurationReplication.zip"
+      - text: "Publisher\u0019s Link"
+        url: "https://doi.org/10.1111/jofi.13216"
+        external: true
+    publication:
+      journal: "Journal of Finance"
+      year: 2023
+      volume: 78
+      issue: 3
+      pages: "1393–1447"
+
+  - title: "The Size-Power Tradeoff in HAR Inference"
+    pdf: "SizePower.pdf"
+    authors:
+      - name: "James H. Stock"
+        url: "https://stock.scholars.harvard.edu"
+      - name: "Daniel J. Lewis"
+        url: "https://sites.google.com/view/danjlewis/home"
+    date: "September 2021"
+    abstract: "Heteroskedasticity and autocorrelation-robust (HAR) inference in time series regression typically involves kernel estimation of the long-run variance. Conventional wisdom holds that, for a given kernel, the choice of truncation parameter trades off a test\u0019s null rejection rate and power, and that this tradeoff differs across kernels. We formalize this intuition: using higher-order expansions, we provide a unified size-power frontier for both kernel and weighted orthonormal series tests using nonstandard \"fixed-<em>b</em>\" critical values. We also provide a frontier for the subset of these tests for which the fixed-<em>b</em> distribution is <em>t</em> or <em>F</em>. These frontiers are respectively achieved by the QS kernel and equal-weighted periodogram. The frontiers have simple closed-form expressions, which upon evaluation show that the price paid for restricting attention to tests with <em>t</em> and <em>F</em> critical values is small. The frontiers are derived for the Gaussian multivariate location model, but simulations suggest the qualitative findings extend to stochastic regressors."
+    links:
+      - text: "Online Appendix"
+        url: "SizePowerSupplement.pdf"
+      - text: "Replication Files"
+        url: "/assets/zip/15404_Data_and_Programs.zip"
+      - text: "Working Paper Version"
+        url: "lls_har_frontier_060617.pdf"
+        note: "(with additional results)"
+      - text: "Publisher\u0019s Link"
+        url: "https://doi.org/10.3982/ECTA15404"
+        external: true
+    publication:
+      journal: "Econometrica"
+      year: 2021
+      volume: 89
+      issue: 5
+      pages: "2497–2516"
+
+  - title: "HAR Inference: Recommendations for Practice"
+    pdf: "HARRecommendations.pdf"
+    authors:
+      - name: "James H. Stock"
+        url: "https://stock.scholars.harvard.edu"
+      - name: "Daniel J. Lewis"
+        url: "https://sites.google.com/view/danjlewis/home"
+      - name: "Mark W. Watson"
+        url: "https://www.princeton.edu/~mwatson/"
+    date: "October 2018"
+    abstract: "The classic papers by Newey and West (1987) and Andrews (1991) spurred a large body of work on how to improve heteroscedasticity- and autocorrelation-robust (HAR) inference in time-series regression. This literature finds that using a larger-than-usual truncation parameter to estimate the long-run variance, combined with Kiefer-Vogelsang (2002, 2005) fixed-<em>b</em> critical values, can substantially reduce size distortions, at only a modest cost in (size-adjusted) power. Empirical practice, however, has not kept up. This article therefore draws on the post-Newey-West/Andrews literature to make concrete recommendations for HAR inference. We derive truncation parameter rules that choose a point on the size-power tradeoff to minimize a loss function. If Newey-West tests are used, we recommend the truncation parameter rule <em>S</em> = 1.3<em>T</em><sup>1/2</sup> and (nonstandard) fixed-<em>b</em> critical values. For tests of a single restriction, we find advantages to using the equal-weighted cosine (EWC) test, where the long run variance is estimated by projections onto Type-II cosines, using <em>&nu;</em> = 0.4<em>T</em><sup>2/3</sup> cosine terms; for this test, fixed-<em>b</em> critical values are, conveniently, <em>t<sub>&nu;</sub></em> or <em>F</em>. We assess these rules using first an ARMA/GARCH Monte Carlo design, then a dynamic factor model design estimated using 207 quarterly U.S. macroeconomic time series."
+    links:
+      - text: "Replication Files"
+        url: "/assets/zip/LLSW_ReplicationFiles_071418.zip"
+      - text: "Publisher\u0019s Link"
+        url: "https://doi.org/10.1080/07350015.2018.1506926"
+        external: true
+    publication:
+      journal: "Journal of Business & Economic Statistics"
+      year: 2018
+      volume: 36
+      issue: 4
+      pages: "541–559"
+
+  - title: "Spatial Clustering During Memory Search"
+    pdf: "jep2013.pdf"
+    authors:
+      - name: "Jonathan F. Miller"
+        url: "https://scholar.google.com/citations?user=sTGOerAAAAAJ&hl=en"
+      - name: "Sean M. Polyn"
+        url: "https://memory.psy.vanderbilt.edu/w/index.php/Main_Page"
+      - name: "Michael J. Kahana"
+        url: "https://memory.psych.upenn.edu/Michael_J._Kahana"
+    date: "May 2013"
+    subtitle: "(from a previous life!)"
+    abstract: "In recalling a list of previously experienced items, participants are known to organize their responses on the basis of the items\u0019 semantic and temporal similarities. Here, we examine how spatial information influences the organization of responses in free recall. In Experiment 1, participants studied and subsequently recalled lists of landmarks. In Experiment 2, participants played a game in which they delivered objects to landmarks in a virtual environment and later recalled the delivered objects. Participants in both experiments were simply asked to recall as many items as they could remember in any order. By analyzing the conditional probabilities of recall transitions, we demonstrate strong spatial and temporal organization of studied items in both experiments."
+    links:
+      - text: "Replication Files"
+        url: "/assets/zip/MillEtal12a.data.tgz"
+    publication:
+      journal: "Journal of Experimental Psychology: Learning, Memory, and Cognition"
+      year: 2013
+      volume: 39
+      issue: 3
+      pages: "773–781"

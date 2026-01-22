@@ -1,0 +1,78 @@
+{%- comment -%}
+Research section template - reads from _data/research.yml
+To update research entries, edit _data/research.yml instead of this file.
+{%- endcomment -%}
+
+<p style="margin-top: 13px; font-size: 20px;"><b>Working Papers</b></p>
+
+{% for paper in site.data.research.working_papers -%}
+<div class="entry">
+    <p style="margin-top: {% if forloop.first %}-5px{% else %}-2px{% endif %}; font-size: 16px; font-family: Minion-Pro,Serif; line-height: 1.3;"><b><a href="{{ paper.pdf | prepend: '/' | relative_url }}">{{ paper.title }}</a></b>
+        {%- if paper.authors -%}
+        <span style="font-size: 15px;">, with {% for author in paper.authors %}{% if forloop.last and forloop.length > 1 %}{% if forloop.length > 2 %},{% endif %} and {% elsif forloop.index > 1 %}, {% endif %}<a href="{{ author.url }}" target="_blank" rel="noopener">{{ author.name }}</a>{% endfor %}, <nobr>{{ paper.date }}</nobr>{% if paper.note %} <em><small><nobr>{{ paper.note }}</nobr></small></em>{% endif %}</span>
+        {%- else -%}
+        <span style="font-size: 15px;">, {{ paper.date }}{% if paper.note %} <em><small><nobr>{{ paper.note }}</nobr></small></em>{% endif %}</span>
+        {%- endif -%}
+    </p>
+    <p style="margin-top: -12.5px; margin-right: 10px; font-size: 15px; font-family: Minion-Pro,Serif; line-height: 1.3;"><a href="" class="show_hide">Abstract <b>+</b></a>
+        {%- if paper.links -%}
+        {%- for link in paper.links -%}
+        &nbsp;&nbsp; | &nbsp;&nbsp;
+        {%- if link.subitems -%}
+        {{ link.text }}: {% for subitem in link.subitems %}{% if forloop.index > 1 %}, {% endif %}<a href="{{ subitem.url | relative_url }}">{{ subitem.text }}</a>{% endfor %}
+        {%- elsif link.external -%}
+        <a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.text }}</a>
+        {%- else -%}
+        <a href="{{ link.url | prepend: '/' | relative_url }}">{{ link.text }}</a>
+        {%- endif -%}
+        {%- if link.note %} <em><small>{{ link.note }}</small></em>{% endif -%}
+        {%- endfor -%}
+        {%- endif -%}
+    </p>
+    <div class="slidingDiv" style="display:none; margin-top: -12px; margin-bottom: 17px; margin-right: 10px; font-size: 15px; font-family: Minion-Pro,Serif; line-height: 1.325; text-align: justify;">
+        {{ paper.abstract }}
+    </div>
+    {%- if paper.status %}
+    <p style="margin-top: -11.75px; margin-bottom: 17px; margin-right: 10px; font-size: 15px; font-family: Minion-Pro,Serif; font-weight:500; line-height: 1.3;">{{ paper.status.note }}, <em>{{ paper.status.journal }}</em></p>
+    {%- endif %}
+</div>
+{% endfor %}
+    <p style="margin-top: 19px; font-size: 20px;"><b>Publications</b></p>
+
+{% for paper in site.data.research.publications -%}
+    <div class="entry">
+        <p style="margin-top: {% if forloop.first %}-5px{% else %}-2px{% endif %}; font-size: 16px; font-family: Minion-Pro,Serif; line-height: 1.3;"><b><a href="{{ paper.pdf | prepend: '/' | relative_url }}">{{ paper.title }}</a></b>
+            {%- if paper.authors -%}
+            <span style="font-size: 15px;">, with {% for author in paper.authors %}{% if forloop.last and forloop.length > 1 %}{% if forloop.length > 2 %},{% endif %} and {% elsif forloop.index > 1 %}, {% endif %}<a href="{{ author.url }}" target="_blank" rel="noopener">{{ author.name }}</a>{% endfor %}, <nobr>{{ paper.date }}</nobr></span>
+            {%- else -%}
+            <span style="font-size: 15px;">, {{ paper.date }}</span>
+            {%- endif -%}
+        </p>
+        {%- if paper.subtitle %}
+        <p style="margin-top: -14.5px; margin-right: 10px; font-size: 13px; font-family: Minion-Pro,Serif; line-height: 1.4;"><em>{{ paper.subtitle }}</em></p>
+        {%- endif %}
+        <p style="margin-top: {% if paper.subtitle %}-12.675px{% else %}-12.5px{% endif %}; margin-right: 10px; font-size: 15px; font-family: Minion-Pro,Serif; line-height: 1.3;"><a href="" class="show_hide">Abstract <b>+</b></a>
+            {%- if paper.links -%}
+            {%- for link in paper.links -%}
+            &nbsp;&nbsp; | &nbsp;&nbsp;
+            {%- if link.subitems -%}
+            {{ link.text }}: {% for subitem in link.subitems %}{% if forloop.index > 1 %}, {% endif %}<a href="{{ subitem.url | relative_url }}">{{ subitem.text }}</a>{% endfor %}
+            {%- elsif link.external -%}
+            <a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.text }}</a>
+            {%- elsif link.url contains "http" or link.url contains "/assets/" -%}
+            <a href="{{ link.url }}">{{ link.text }}</a>
+            {%- else -%}
+            <a href="{{ link.url | prepend: '/' | relative_url }}">{{ link.text }}</a>
+            {%- endif -%}
+            {%- if link.note %} <em><small>{{ link.note }}</small></em>{% endif -%}
+            {%- endfor -%}
+            {%- endif -%}
+        </p>
+        <div class="slidingDiv" style="display:none; margin-top: -12px; margin-bottom: 17px; margin-right: 10px; font-size: 15px; font-family: Minion-Pro,Serif; line-height: 1.325; text-align: justify;">
+            {{ paper.abstract }}
+        </div>
+        {%- if paper.publication %}
+        <p style="margin-top: -11.75px; margin-bottom: 17px; margin-right: 10px; font-size: 15px; font-family: Minion-Pro,Serif; line-height: 1.3;"><em>{{ paper.publication.journal }}</em> ({{ paper.publication.year }}), Vol. {{ paper.publication.volume }}, No. {{ paper.publication.issue }}, {{ paper.publication.pages }}</p>
+        {%- endif %}
+    </div>
+{% endfor %}

@@ -26,11 +26,21 @@ jobs:
       with:
         ruby-version: '3.2.2'
         bundler-cache: true
+    - name: Setup Node
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
     - name: Install and Build 🔧
       run: |
-        npm install -g uncss mermaid.cli
+        npm install -g mermaid.cli
         export JEKYLL_ENV=production
         bundle exec jekyll build
+    - name: Purge unused CSS 🧹
+      run: |
+        npm install -g purgecss
+        for css in _site/assets/css/*.css; do
+          purgecss --content '_site/**/*.html' '_site/**/*.js' --css "$css" --output '_site/assets/css/' --safelist 'fa-' 'modal' 'show' 'active' 'collapse' 'tooltip' 'navbar' 'btn' 'dropdown'
+        done
     - name: Deploy 🚀
       if: github.event_name != 'pull_request'
       uses: JamesIves/github-pages-deploy-action@v4
