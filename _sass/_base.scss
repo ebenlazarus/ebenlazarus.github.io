@@ -2,6 +2,11 @@
  * Styles for the base elements of the theme.
  ******************************************************************************/
 
+// Prevent horizontal shift when scrollbar appears/disappears
+html {
+  overflow-y: scroll;
+}
+
 // Typography
 
 p {
