@@ -20,7 +20,7 @@ social: false  # includes social icons at the bottom of the page
 research: true # includes the research section
 ---
 
-Welcome! I am an assistant professor of finance at the Haas School of Business at UC Berkeley, as well as a faculty research fellow at the National Bureau of Economic Research. My research interests include asset pricing, macroeconomics, behavioral economics, and time-series econometrics.
+Welcome! I am an assistant professor of finance at the Haas School of Business at UC Berkeley, as well as a faculty research fellow at the National Bureau of Economic Research.<span class="d-none d-sm-inline"> My research interests include asset pricing, macroeconomics, behavioral economics, and time-series econometrics.</span>
 
 {% comment %}
 <b></b>

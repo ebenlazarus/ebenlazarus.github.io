@@ -1,3 +1,5 @@
+# If ever hosted on a platform that honors _headers, expand CSP to allow
+# external fonts and review other external resources (MathJax, analytics, etc.)
 /*
   Referrer-Policy: no-referrer
   Content-Security-Policy: default-src 'none'; img-src 'self'; font-src 'self'; style-src 'self' 'unsafe-hashes' 'sha256-IJrcg3sARmZ98Syu4Z6Mlbv6BKFTwVDGU3cSj7Wtsfg='; script-src 'self'; frame-ancestors 'none'; base-uri 'none'; form-action 'none';

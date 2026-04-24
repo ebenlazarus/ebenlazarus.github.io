@@ -6,8 +6,7 @@ layout: null
 
 const CACHE_NAME = 'static-{{ site.time | date: "%Y%m%d%H%M%S" }}';
 const ASSETS = [
-  '/',                            // homepage
-  '/assets/css/mdb.min.css',      //
+  '/assets/css/mdb.min.css',
   '/assets/js/jquery.min.js',     // jQuery
   '/assets/webfonts/fa-solid-900.woff2', // Font Awesome
   '/assets/img/prof_pic.jpg'             // cache the real URL you request
@@ -15,6 +14,7 @@ const ASSETS = [
 ];
 
 self.addEventListener('install', event => {
+  self.skipWaiting();
   event.waitUntil(
     caches.open(CACHE_NAME)
           .then(cache => cache.addAll(ASSETS))
@@ -22,15 +22,18 @@ self.addEventListener('install', event => {
 });
 
 self.addEventListener('activate', event => {
-  // remove old caches
+  // remove old caches, take control of open tabs immediately
   event.waitUntil(
-    caches.keys().then(keys =>
-      Promise.all(
-        keys
-          .filter(key => key !== CACHE_NAME)
-          .map(key => caches.delete(key))
+    Promise.all([
+      self.clients.claim(),
+      caches.keys().then(keys =>
+        Promise.all(
+          keys
+            .filter(key => key !== CACHE_NAME)
+            .map(key => caches.delete(key))
+        )
       )
-    )
+    ])
   );
 });
 
