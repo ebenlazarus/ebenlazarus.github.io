@@ -1,6 +1,9 @@
     <!-- Metadata, OpenGraph and Schema.org -->
     {% include metadata.html %}
 
+    <!-- Preload above-the-fold icon font (envelope, location-dot, file-pdf) -->
+    <link rel="preload" href="{{ '/assets/webfonts/fa-solid-900.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+
     <!-- Bootstrap & MDB -->
     <link href="{{ '/assets/css/bootstrap.min.css' | relative_url }}" rel="stylesheet" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ '/assets/css/mdb.min.css' | relative_url }}" crossorigin="anonymous" />
