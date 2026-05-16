@@ -4,7 +4,7 @@ permalink: /discussions/
 title: Discussions
 description: Selected Discussions
 nav: true
-nav_order: 2
+nav_order: 3
 ---
 
 <p style="margin-top: -16px; font-size: 16px; font-family: Minion-Pro,Serif; line-height: 1.3;"><b><a href="{{ 'LazarusAFADiscussion25.pdf' | prepend: '/assets/discussions/' | relative_url}}">Demand-Based Expected Returns</a></b><span style="font-size: 15px;">, by Alessandro Crescini, Fabio Trojani, and Andrea Vedolin</span></p>

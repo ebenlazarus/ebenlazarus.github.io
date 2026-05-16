@@ -4,7 +4,7 @@ permalink: /teaching/
 title: Teaching
 description: Teaching
 nav: true
-nav_order: 3
+nav_order: 4
 ---
 
 <p style="margin-top: -15px; font-size: 18px;"><b>UC Berkeley</b></p>
