@@ -6,11 +6,20 @@ working_papers:
     authors:
       - name: "Niels J. Gormsen"
         url: "https://voices.uchicago.edu/gormsen/"
-    date: "January 2026"
-    abstract: "A large body of work has sought to measure the effect of interest rates on equity valuations. The challenge in doing so is that both are endogenous, and their comovement depends on the forces driving interest-rate changes. To address this problem, we develop and estimate a decomposition that splits movements in real rates into three structural drivers: changes in expected growth, risk, or \u201Cpure discounting.\u201D We show that only pure discount-rate shocks transmit one-for-one to equity valuations, with little or negative transmission of growth and risk shocks. Implementing our decomposition with a global panel of growth expectations and asset prices, we find a weak unconditional relation between valuations and real rates but a strong relation with the pure discounting component, which explains 80% of cross-country valuation changes since 1990. In the U.S., we find that 35% of the interest-rate decline is attributable to pure discounting, implying that only a fraction of the change in rates has passed through directly to equities. We use the decomposition to revisit evidence on the role of  interest rates in explaining price variation, and to study higher-frequency returns, cross-sectional rate exposures, duration-matched equity premia, and reactions to monetary policy."
+    date: "July 2026"
+    abstract: "How do changes in interest rates affect equity valuations? The impact depends on the underlying driver of the rate change. We decompose real-rate changes into three drivers: expected growth, risk, and \u201Cpure discounting.\u201D Only pure-discounting shocks should transmit one-for-one to valuations, with weak-to-negative transmission from growth and risk. Using survey forecasts and asset prices, we estimate that pure-discounting shocks indeed transmit one-for-one to equity and explain 80% of cross-country valuation changes since 1990. Only 35% of the post-1990 U.S. rate decline, however, reflects pure discounting. We use our decomposition to study cross-sectional rate exposures, the equity premium, and monetary policy."
     links:
       - text: "Slides"
         url: "RatesEquitySlides.pdf"
+
+  - title: "Conditional Excess Volatility"
+    pdf: "ConditionalExcessVol.pdf"
+    authors:
+      - name: "Christian S. Jensen"
+        url: "https://sites.google.com/view/csjensen"
+    date: "July 2026"
+    note: "(preliminary draft)"
+    abstract: "We decompose market return variance into a component that covaries with the stochastic discount factor (SDF) and one that does not. The SDF-orthogonal component — <em>conditional excess volatility</em> — contributes to variance but does not earn a risk premium. Time variation in the ratio of the market risk premium to total market variance reveals this unpriced share of market variance. Using three distinct measures of this ratio across twenty equity markets, we find that it does not increase during recessions and often declines. Because standard models predict countercyclical risk pricing, this finding requires the excess volatility share to increase substantially in bad times. Our empirical results imply that excess volatility constitutes at least half of the total market variance in recessions. We show that this mechanism provides a unified explanation for (i) why optimal portfolio weights do not increase in downturns despite rising Sharpe ratios, (ii) why the term structure of Sharpe ratios on dividend claims is downward-sloping, and (iii) why option portfolios with fixed risk exposures earn lower returns at longer horizons. Furthermore, high conditional excess volatility predicts lower subsequent investment, implying that unpriced fluctuations in aggregate market risk have important real effects."
 
   - title: "Excess Movement in Option-Implied Beliefs"
     pdf: "ExcessMovement.pdf"
@@ -60,15 +69,6 @@ working_papers:
     pdf: "HDRP.pdf"
     date: "November 2022"
     abstract: "I present evidence from index options that the price of risk over the value of the S&P 500 increases as the investment horizon becomes shorter. I show first how these risk prices may be estimated from the data, by translating the risk-neutral probabilities implied by options prices into physical probabilities that must provide unbiased forecasts of the terminal outcome. The risk price can be interpreted as the marginal investor\u0019s effective risk aversion, and estimating this value over different option-expiration horizons for the S&P, I find that risk aversion is reliably higher for near-term outcomes than for longer-term outcomes: the market\u0019s relative risk aversion over terminal index values decreases from around 15 at a one-week horizon to around 3 at a 12-week horizon. It is difficult to reconcile these findings with leading asset-pricing models, and I discuss necessary conditions for any such rational model to produce such a pattern. Models with dynamically inconsistent risk preferences, however, are capable of straightforwardly producing the findings presented here, and I discuss possible specifications of such models and their applicability to related results from previous literature."
-
-  - title: "The Cyclicality of Risk and Risk Premia"
-    pdf: "Cyclicality.pdf"
-    authors:
-      - name: "Christian S. Jensen"
-        url: "https://sites.google.com/view/csjensen"
-    date: "August 2025"
-    note: "(preliminary draft)"
-    abstract: "We consider and reexamine the properties of the market risk premium and variance over the business cycle. While it is well known that the risk premium and variance both increase in recessions, we find that the risk premium is less strongly countercyclical than conditional variance. The ratio of risk premium to variance is therefore weakly procyclical, unlike the Sharpe ratio. We document this fact in a broad global equity sample, using a range of methods to time portfolio formation after the onset of a recession. We also provide supporting evidence from option markets. We show that the ratio of risk premium to variance pins down the conditional beta in a regression of the stochastic discount factor on the market return, and its cyclicality is important for understanding stylized facts about the equity term structure. We present a stylized model that reconciles the procyclicality of the price per unit of variance risk with the term structure of Sharpe ratios to dividend claims."
 
 publications:
   - title: "Overinference from Weak Signals and Underinference from Strong Signals"
