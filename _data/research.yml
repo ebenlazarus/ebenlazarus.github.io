@@ -81,9 +81,9 @@ publications:
       - text: "Slides"
         url: "FE_Slides.pdf"
     status:
-      type: "accepted"
+      type: "forthcoming"
       journal: "Review of Financial Studies"
-      note: "Conditionally accepted"
+      note: "Forthcoming"
 
   - title: "Overinference from Weak Signals and Underinference from Strong Signals"
     pdf: "OverUnderinference.pdf"
