@@ -71,13 +71,14 @@ publications:
         url: "https://sites.google.com/site/mihiragandhi"
       - name: "Niels J. Gormsen"
         url: "https://voices.uchicago.edu/gormsen/"
-    date: "September 2026"
+    date: "October 2026"
     abstract: "We measure investors’ short- and long-term stock-return expectations using both options and survey data. These expectations at different horizons reveal what investors think their own short-term expectations will be in the future, or forward return expectations. Across data sources, investors’ forward return expectations are countercyclical, especially when measured as forward risk premia. This countercyclical variation is, however, excessive, as changes in forward return expectations are too large relative to subsequent realized short-term expectations. The excess variation in forward return expectations can help account for a meaningful share of the stock-price declines during the global financial crisis and the Covid-19 crisis."
     links:
       - text: "Online Appendix"
         url: "FE_appendix.pdf"
       - text: "Replication Files"
-        url: "/assets/zip/ForwardExpectationsReplicationRFS.zip"
+        url: "https://doi.org/10.7910/DVN/NRQFKJ"
+        external: true
       - text: "Slides"
         url: "FE_Slides.pdf"
     status:
