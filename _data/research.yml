@@ -11,6 +11,10 @@ working_papers:
     links:
       - text: "Slides"
         url: "RatesEquitySlides.pdf"
+    status:
+      type: "rr"
+      journal: "American Economic Review"
+      note: "Revise & resubmit"
 
   - title: "Conditional Excess Volatility"
     pdf: "ConditionalExcessVol.pdf"
