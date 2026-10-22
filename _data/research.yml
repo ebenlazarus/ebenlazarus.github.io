@@ -5,7 +5,7 @@ working_papers:
     pdf: "RatesEquity.pdf"
     authors:
       - name: "Niels J. Gormsen"
-        url: "https://voices.uchicago.edu/gormsen/"
+        url: "https://nielsgormsen.com/"
     date: "July 2026"
     abstract: "How do changes in interest rates affect equity valuations? The impact depends on the underlying driver of the rate change. We decompose real-rate changes into three drivers: expected growth, risk, and \u201Cpure discounting.\u201D Only pure-discounting shocks should transmit one-for-one to valuations, with weak-to-negative transmission from growth and risk. Using survey forecasts and asset prices, we estimate that pure-discounting shocks indeed transmit one-for-one to equity and explain 80% of cross-country valuation changes since 1990. Only 35% of the post-1990 U.S. rate decline, however, reflects pure discounting. We use our decomposition to study cross-sectional rate exposures, the equity premium, and monetary policy."
     links:
@@ -43,18 +43,18 @@ working_papers:
 
 publications:
   - title: "Excess Movement in Option-Implied Beliefs"
-    pdf: "ExcessMovement.pdf"
+    pdf: "ExcessMovementJF.pdf"
     authors:
       - name: "Ned Augenblick"
         url: "https://faculty.haas.berkeley.edu/ned/"
-    date: "August 2026"
+    date: "October 2026"
     abstract: "We derive bounds on the rational variation in option-implied beliefs about market returns. While risk preferences distort option-implied (or <em>risk-neutral</em>) beliefs away from subjective beliefs, one can nonetheless bound risk-neutral belief movement under a general assumption on the stochastic discount factor. The resulting test requires no knowledge of the objective distribution and allows significantly more flexibility in discount rates than standard volatility tests. Implementing our test empirically using index options, we find that there is so much movement in risk-neutral beliefs that the bounds are routinely violated. Our results imply significant excess index-price volatility."
     links:
       - text: "Online Appendix"
         url: "EM_appendix.pdf"
       - text: "Replication Files"
         url: "/assets/zip/ExcessMovementReplicationJF.zip"
-      - text: "Working Paper Versions"
+      - text: "Working Paper"
         subitems:
           - text: "I"
             url: "/assets/pdf/RE.pdf"
@@ -62,7 +62,10 @@ publications:
             url: "/assets/pdf/EM_V2.pdf"
       - text: "Slides"
         url: "EM_slides_0922.pdf"
-        note: "(from previous version)"
+        note: "(for prior version)"
+      - text: "Publisher’s Link"
+        url: "https://doi.org/10.1111/jofi.70086"
+        external: true
     status:
       type: "forthcoming"
       journal: "Journal of Finance"
@@ -74,7 +77,7 @@ publications:
       - name: "Mihir Gandhi"
         url: "https://sites.google.com/site/mihiragandhi"
       - name: "Niels J. Gormsen"
-        url: "https://voices.uchicago.edu/gormsen/"
+        url: "https://nielsgormsen.com/"
     date: "October 2026"
     abstract: "We measure investors’ short- and long-term stock-return expectations using both options and survey data. These expectations at different horizons reveal what investors think their own short-term expectations will be in the future, or forward return expectations. Across data sources, investors’ forward return expectations are countercyclical, especially when measured as forward risk premia. This countercyclical variation is, however, excessive, as changes in forward return expectations are too large relative to subsequent realized short-term expectations. The excess variation in forward return expectations can help account for a meaningful share of the stock-price declines during the global financial crisis and the Covid-19 crisis."
     links:
@@ -123,7 +126,7 @@ publications:
     pdf: "DurationJF.pdf"
     authors:
       - name: "Niels J. Gormsen"
-        url: "https://voices.uchicago.edu/gormsen/"
+        url: "https://nielsgormsen.com/"
     date: "June 2023"
     abstract: "We propose a duration-based explanation for the premia on major equity factors, including value, profitability, investment, low-risk, and payout factors. These factors invest in firms that earn most of their cash flows in the near future and could therefore be driven by a premium on near-future cash flows. We test this hypothesis using a novel data set of single-stock dividend futures, which are claims on dividends of individual firms. Consistent with our hypothesis, the expected CAPM alpha on individual cash flows decreases in maturity within a firm, and the alpha is not related to the above characteristics when controlling for maturity."
     links:
@@ -158,7 +161,7 @@ publications:
       - text: "Stata Package"
         url: "https://github.com/ebenlazarus/harreg"
         external: true
-      - text: "Working Paper Version"
+      - text: "Working Paper"
         url: "lls_har_frontier_060617.pdf"
       - text: "Publisher\u2019s Link"
         url: "https://doi.org/10.3982/ECTA15404"
@@ -205,7 +208,7 @@ publications:
       - name: "Sean M. Polyn"
         url: "https://memory.psy.vanderbilt.edu/w/index.php/Main_Page"
       - name: "Michael J. Kahana"
-        url: "https://memory.psych.upenn.edu/Michael_J._Kahana"
+        url: "https://psychology.sas.upenn.edu/people/michael-kahana"
     date: "May 2013"
     subtitle: "(from a previous life!)"
     abstract: "In recalling a list of previously experienced items, participants are known to organize their responses on the basis of the items\u2019 semantic and temporal similarities. Here, we examine how spatial information influences the organization of responses in free recall. In Experiment 1, participants studied and subsequently recalled lists of landmarks. In Experiment 2, participants played a game in which they delivered objects to landmarks in a virtual environment and later recalled the delivered objects. Participants in both experiments were simply asked to recall as many items as they could remember in any order. By analyzing the conditional probabilities of recall transitions, we demonstrate strong spatial and temporal organization of studied items in both experiments."
