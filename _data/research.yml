@@ -32,7 +32,7 @@ working_papers:
         url: "https://faculty.haas.berkeley.edu/stanton/"
       - name: "Johan Walden"
         url: "https://sites.google.com/berkeley.edu/johan-walden/bio"
-    date: "September 2026"
+    date: "November 2026"
     note: "(preliminary draft)"
     abstract: "We introduce a nonparametric method for recovering risk distributions of anticipated events of publicly traded firms, such as earnings announcements, securities litigation events, and the resolution of takeover bids and proxy fights. We first apply our method to study three specific events: two corporate events and a systematic event (Elon Musk’s takeover bid of Twitter, the AT&T–Time Warner antitrust case, and the 2016 Brexit referendum). In all three cases, our recovered risk distributions are informative about market-implied beliefs over the outcome of the event. We then study a large sample of earnings announcements. Empirically, the recovered earnings announcement risk distribution is a strong predictor of realized announcement-day return moments, outperforming conventional option-implied measures that conflate announcement risk and other risks. Our method provides new insight into the effect of anticipated event risk on asset prices and how to measure such risk, and — more specifically — gives a fruitful way of using option prices to extract market beliefs about event risk."
 
@@ -88,6 +88,9 @@ publications:
         external: true
       - text: "Slides"
         url: "FE_Slides.pdf"
+      - text: "Publisher’s Link"
+        url: "https://doi.org/10.1093/rfs/hhag096"
+        external: true
     status:
       type: "forthcoming"
       journal: "Review of Financial Studies"
