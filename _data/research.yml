@@ -22,8 +22,10 @@ working_papers:
       - name: "Christian S. Jensen"
         url: "https://sites.google.com/view/csjensen"
     date: "August 2026"
-    note: "(preliminary draft)"
     abstract: "We decompose market return variance into a component that covaries with the stochastic discount factor (SDF) and one that does not. The component orthogonal to the SDF — <em>conditional excess volatility</em> — contributes to variance but does not earn a risk premium. Time variation in the ratio of the market risk premium to total market variance reveals this unpriced share of market variance. Using three distinct measures of this ratio across twenty equity markets, we find that it does not increase during recessions and often declines. Because standard models predict countercyclical risk pricing, this finding requires the excess volatility share to increase substantially in bad times. Our empirical results imply that excess volatility constitutes at least half of the total market variance in recessions. We show that this mechanism provides a unified explanation for (i) why optimal portfolio weights do not increase in downturns despite rising Sharpe ratios, (ii) why the term structure of Sharpe ratios on dividend claims is downward-sloping, and (iii) why option portfolios with fixed risk exposures earn lower returns at longer horizons. Furthermore, high conditional excess volatility predicts lower subsequent investment, implying that unpriced fluctuations in aggregate market risk have real effects."
+    links:
+      - text: "Slides"
+        url: "ConditionalExcessVolSlides.pdf"
 
   - title: "Option-Implied Event Risk"
     pdf: "EventRisk.pdf"
@@ -40,6 +42,19 @@ working_papers:
     pdf: "HDRP.pdf"
     date: "November 2022"
     abstract: "I present evidence from index options that the price of risk over the value of the S&P 500 increases as the investment horizon becomes shorter. I show first how these risk prices may be estimated from the data, by translating the risk-neutral probabilities implied by options prices into physical probabilities that must provide unbiased forecasts of the terminal outcome. The risk price can be interpreted as the marginal investor\u2019s effective risk aversion, and estimating this value over different option-expiration horizons for the S&P, I find that risk aversion is reliably higher for near-term outcomes than for longer-term outcomes: the market\u2019s relative risk aversion over terminal index values decreases from around 15 at a one-week horizon to around 3 at a 12-week horizon. It is difficult to reconcile these findings with leading asset-pricing models, and I discuss necessary conditions for any such rational model to produce such a pattern. Models with dynamically inconsistent risk preferences, however, are capable of straightforwardly producing the findings presented here, and I discuss possible specifications of such models and their applicability to related results from previous literature."
+
+  - title: "Long-Run Currency Shocks"
+    authors:
+      - name: "Niels J. Gormsen"
+        url: "https://nielsgormsen.com/"
+      - name: "Markus Ibert"
+        url: "https://www.markusibert.com"
+    date: "November 2026"
+    note: "(draft coming soon)"
+    abstract: "Higher relative interest rates are generally associated with a stronger currency, but large changes in exchange rates often go in the opposite direction. In 2025, for instance, the dollar fell significantly even as U.S. rates increased, and similar dynamics describe multiple past policy-related shocks. We study such episodes using a model fit to long-horizon survey data on professional forecasters’ expected exchange rates and interest rates. A model allowing for perceived permanent changes in exchange rates fits the forecast data better than a stationary model and helps make sense of large currency moves: we find that the majority of dollar variation during these episodes is perceived as permanent, helping explain the disconnect between exchange rates and interest rates. The dollar’s expected long-run level rises after large geopolitical shocks abroad and falls after large U.S. shocks. When the perceived long-run level changes without an associated policy shock, however, much of the change predictably reverts over the subsequent years. We show that such perceived permanent shocks help explain a number of exchange-rate puzzles, and we study a simple equilibrium model in which a permanent fall in foreign demand for U.S. assets leads to a weaker dollar and higher expected returns on U.S. bonds and equity."
+    links:
+      - text: "Slides"
+        url: "LongRunFXSlides.pdf"
 
 publications:
   - title: "Excess Movement in Option-Implied Beliefs"
